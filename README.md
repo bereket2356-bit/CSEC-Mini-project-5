@@ -51,23 +51,22 @@ The application allows users to add, complete, delete tasks, view task statistic
 
 ## 📁 Project Structure
 src/
+├── components/              # Reusable UI components
+│   ├── Header.jsx           # App title + dark mode toggle
+│   ├── TaskInput.jsx        # Input field and Add Task button
+│   ├── TaskItem.jsx         # Single task item
+│   └── TaskList.jsx         # List of all tasks
 │
-├── components/
-│ ├── Header.jsx
-│ ├── TaskInput.jsx
-│ ├── TaskItem.jsx
-│ ├── TaskList.jsx
+├── pages/                   # Application pages
+│   ├── Home.jsx             # Add and view tasks
+│   └── Stats.jsx            # Task statistics page
 │
-├── pages/
-│ ├── Home.jsx
-│ ├── Stats.jsx
+├── store/                   # Global state management
+│   └── taskContext.jsx      # Context API for tasks & theme
 │
-├── store/
-│ ├── taskContext.jsx
+├── styles/                  # Application styles
+│   └── global.css           # Global and theme styles
 │
-├── styles/
-│ ├── global.css
-│
-├── App.jsx
-├── main.jsx
+├── App.jsx                  # Main app component & routing
+├── main.jsx                 # Application entry point
 
