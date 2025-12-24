@@ -1,7 +1,6 @@
 # 📝 Task Tracker Application
 
-A simple and responsive **Task Tracker** built with **React + Vite**.  
-The application allows users to add, complete, delete tasks, view task statistics, and switch between **Light Mode** and **Dark Mode** with persistent data storage.
+A responsive **Task Tracker** built with **React + Vite**, allowing users to add, complete, delete tasks, view task statistics, and toggle between **Light Mode** and **Dark Mode** with persistent data storage.
 
 ---
 
@@ -17,7 +16,7 @@ The application allows users to add, complete, delete tasks, view task statistic
 ### 🌙 Dark Mode
 - Toggle between Light and Dark mode
 - Theme preference is saved using `localStorage`
-- State managed using React Context API
+- State managed with React Context API
 
 ### 📊 Stats Page
 - Total number of tasks
@@ -50,6 +49,8 @@ The application allows users to add, complete, delete tasks, view task statistic
 ---
 
 ## 📁 Project Structure
+
+```text
 src/
 ├── components/              # Reusable UI components
 │   ├── Header.jsx           # App title + dark mode toggle
@@ -68,5 +69,4 @@ src/
 │   └── global.css           # Global and theme styles
 │
 ├── App.jsx                  # Main app component & routing
-├── main.jsx                 # Application entry point
-
+└── main.jsx                 # Application entry point
